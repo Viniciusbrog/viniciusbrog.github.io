@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="My learning notes and practical progress through Cisco Networking Academy and networking fundamentals.">
+  <title>Cisco Networking Academy | Vinicius Brognara</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .article-hero{padding:76px 0 58px;border-bottom:1px solid var(--line)}
+    .article-crumb{font:10px var(--mono);letter-spacing:.12em;color:var(--accent);margin-bottom:25px}
+    .article-hero h1{font-size:clamp(38px,5.3vw,66px);line-height:1.12;letter-spacing:-.05em;max-width:850px;margin:0 0 20px}
+    .article-deck{max-width:680px;color:#aab8c0;font-size:16px;line-height:1.8}
+    .article-meta{display:flex;gap:18px;flex-wrap:wrap;margin-top:28px;color:var(--muted);font:10px var(--mono);letter-spacing:.08em}
+    .article-layout{display:grid;grid-template-columns:minmax(0,760px) 220px;gap:65px;padding:60px 0 90px;align-items:start}
+    .article-body{min-width:0;color:#adbbc2;font-size:14px;line-height:1.9}
+    .article-body h2{font-size:25px;line-height:1.3;letter-spacing:-.03em;color:var(--text);margin:48px 0 14px}
+    .article-body h3{font-size:17px;color:var(--text);margin:28px 0 8px}
+    .article-body p{margin:0 0 17px}
+    .article-body ul{padding-left:21px;margin:12px 0 22px}
+    .article-body li{padding:4px 0}
+    .article-body strong{color:#e8f0f2}
+    .article-callout{border-left:2px solid var(--accent);background:#0d191c;padding:18px 21px;margin:25px 0;color:#c0d0d0}
+    .article-callout b{display:block;color:var(--accent);font:10px var(--mono);letter-spacing:.1em;margin-bottom:7px}
+    .article-placeholder{border:1px dashed #38504e;background:#0b1419;padding:25px;margin:20px 0;color:#81949b}
+    .article-placeholder span{display:block;color:var(--accent);font:10px var(--mono);letter-spacing:.1em;margin-bottom:8px}
+    .article-placeholder p{font-size:12px;margin:0}
+    .article-toc{position:sticky;top:30px;border-left:1px solid var(--line);padding-left:20px}
+    .article-toc h3{font:10px var(--mono);letter-spacing:.12em;color:var(--accent);margin:0 0 15px}
+    .article-toc a{display:block;font-size:11px;color:var(--muted);padding:7px 0}
+    .article-toc a:hover{color:var(--accent)}
+    .article-end{border-top:1px solid var(--line);margin-top:45px;padding-top:25px}
+    .article-end a{color:var(--accent);font:11px var(--mono)}
+    .article-disclaimer{font-size:11px;color:#71818a;margin-top:20px}
+    @media(max-width:850px){.article-layout{grid-template-columns:1fr;gap:20px}.article-toc{position:static;grid-row:1;border:1px solid var(--line);padding:18px}.article-toc a{display:inline-block;margin-right:12px}.article-hero{padding:60px 0 45px}}
+  </style>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="../index.html"><span class="brand-mark">VB</span><span>VINICIUS<span class="muted">BROGNARA</span></span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="nav">
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#roadmap">Learning path</a>
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#journal">Journal</a>
+        <a class="nav-cta" href="https://github.com/viniciusbrog" target="_blank" rel="noreferrer">GitHub ↗</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="article-hero">
+        <div class="article-crumb">JOURNAL / NETWORKING / LEARNING NOTES</div>
+        <h1>Starting my networking journey with <span class="accent">Cisco.</span></h1>
+        <p class="article-deck">My notes, discoveries and practical progress as I build a foundation in computer networking and learn how devices communicate.</p>
+        <div class="article-meta"><span>AUTHOR: VINICIUS BROGNARA</span><span>TOPIC: NETWORKING</span><span>STATUS: LEARNING IN PROGRESS</span></div>
+      </section>
+
+      <div class="article-layout">
+        <article class="article-body">
+          <p>Networking is one of the foundations I want to understand properly before moving deeper into cybersecurity. Security tools and investigations make much more sense when I understand how devices communicate, how data travels and where problems or vulnerabilities can appear.</p>
+          <p>I'm using Cisco Networking Academy as one of my learning resources. This page will be my working notebook: I'll update it as I complete lessons, practise concepts and discover questions worth investigating.</p>
+
+          <div class="article-callout"><b>MY OBJECTIVE</b>Build a practical understanding of networking, not just memorise definitions. I want to be able to explain what is happening when information moves across a network.</div>
+
+          <h2 id="why">01. Why networking matters</h2>
+          <p>Almost every connected system depends on networks. Websites, cloud platforms, business applications, computers and security devices all exchange information through network infrastructure.</p>
+          <p>For a future cybersecurity professional, networking knowledge helps with understanding traffic, investigating suspicious activity, troubleshooting connectivity and recognising how attacks may move through an environment.</p>
+
+          <h2 id="topics">02. Concepts I'm studying</h2>
+          <h3>Network fundamentals</h3>
+          <p>Understanding what a network is, how devices connect, and the roles of routers, switches, access points and end devices.</p>
+          <h3>IP addressing and subnetting</h3>
+          <p>Learning how devices are identified on a network, how IPv4 addresses are structured, and how subnet masks divide networks into smaller sections.</p>
+          <h3>Protocols and communication</h3>
+          <p>Exploring the purpose of TCP, UDP, DNS, DHCP, HTTP and HTTPS, and how protocols make communication possible.</p>
+          <h3>OSI and TCP/IP models</h3>
+          <p>Using networking models to understand the different stages involved in sending and receiving data, and to organise troubleshooting.</p>
+
+          <h2 id="practice">03. Practical exercises and labs</h2>
+          <p>My goal is to pair theory with practice. As I complete exercises, I'll add the task, tools used, what I observed and what I learned.</p>
+          <ul>
+            <li>Identify the IP configuration of my computer.</li>
+            <li>Practise basic connectivity checks using ping and traceroute.</li>
+            <li>Explore DNS lookups and understand how domain names resolve.</li>
+            <li>Build a small network topology and understand device roles.</li>
+            <li>Capture and inspect network packets with Wireshark when ready.</li>
+          </ul>
+          <div class="article-placeholder"><span>LAB NOTES / ADD YOUR EVIDENCE HERE</span><p>Add your own screenshots, command output, topology diagrams or short explanations after completing each exercise. Avoid including passwords, public IP details or other private information.</p></div>
+
+          <h2 id="takeaways">04. Key takeaways</h2>
+          <p>I'll use this section to summarise the ideas that become clearer as I study. Rather than filling it with generic definitions, I want to record explanations in my own words and examples that prove I understand the concept.</p>
+          <ul>
+            <li><strong>What makes sense now:</strong> Add the concepts you can explain confidently.</li>
+            <li><strong>What challenged me:</strong> Record confusing topics and how you worked through them.</li>
+            <li><strong>What I need to practise:</strong> Identify gaps that need another exercise or explanation.</li>
+          </ul>
+
+          <h2 id="next">05. What's next</h2>
+          <p>My next step is to continue the networking modules, practise IP addressing and subnetting, and become more comfortable using command-line tools to inspect network behaviour.</p>
+          <p>I'll update this article as I make progress. The aim is to build a record of real learning and practical work over time.</p>
+
+          <div class="article-end">
+            <a href="../index.html#journal">← BACK TO THE MAIN JOURNAL</a>
+            <p class="article-disclaimer">Learning notes for educational purposes. This page records personal study and practice, not professional network administration or security experience.</p>
+          </div>
+        </article>
+
+        <aside class="article-toc">
+          <h3>IN THIS ARTICLE</h3>
+          <a href="#why">Why networking matters</a>
+          <a href="#topics">Concepts I'm studying</a>
+          <a href="#practice">Practical exercises</a>
+          <a href="#takeaways">Key takeaways</a>
+          <a href="#next">What's next</a>
+        </aside>
+      </div>
+    </main>
+
+    <footer><a class="brand" href="../index.html"><span class="brand-mark">VB</span><span>VINICIUS<span class="muted">BROGNARA</span></span></a><span>BUILT WHILE LEARNING · © <span id="year"></span></span><a href="#">BACK TO TOP ↑</a></footer>
+  </div>
+  <script src="../script.js"></script>
+</body>
+</html>

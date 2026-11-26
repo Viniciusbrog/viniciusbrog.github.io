@@ -1,29 +1,15 @@
 # Vinicius Brognara — Cybersecurity Portfolio
 
-A responsive, static personal portfolio and learning journal built with HTML, CSS and a small amount of JavaScript.
+Welcome to My Cybersecurity Journey
 
-## Publish on GitHub Pages
+This website is my personal learning journal and professional portfolio, documenting my transition into the IT and cybersecurity industry.
 
-1. Open your repository: https://github.com/viniciusbrog/viniciusbrog.github.io
-2. Download and unzip this project.
-3. Upload `index.html`, `styles.css`, `script.js` and this `README.md` to the **root** of the repository.
-4. If GitHub asks, choose to replace the existing `README.md`.
-5. Commit the changes to the `main` branch.
-6. Open **Settings → Pages** and make sure the source is **Deploy from a branch**, branch **main**, folder **/(root)**.
-7. Wait a few minutes, then refresh https://viniciusbrog.github.io/
+Here, I share what I'm learning, the challenges I encounter, practical projects, technical experiments, certifications, and milestones along the way.
 
-## Personalise before publishing
+My goal is to build strong foundations in IT, networking, Linux, SQL, Python, and cybersecurity while developing practical skills through hands-on projects and labs.
 
-- Review the About section and change any wording that does not sound like you.
-- Update the learning-path status labels to match your actual progress.
-- Replace planned project cards with real projects only after completing them.
-- Add journal articles as you write them.
-- Add a professional contact method if you want recruiters to reach you. Do not publish private phone numbers or personal information.
+I'm a firm believer in learning by doing, documenting progress, and continuously improving.
 
-## Local preview
+This is where I document the journey from beginner to cybersecurity professional.
 
-Open `index.html` in a browser. No build tools or paid services are required.
-
-## Updating the site
-
-Edit the HTML/CSS files, then commit and push the changes to the `main` branch. GitHub Pages will publish the update automatically.
+Thanks for stopping by!
